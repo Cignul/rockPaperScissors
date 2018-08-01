@@ -19,7 +19,7 @@ function play(playerChoice) {
         return console.log("Win");
     }
     if (playerChoice == "Paper" && computerChoice == "Scissors") {
-        return cosnsole.log("You lost this one");
+        return console.log("You lost this one");
     }
     if (playerChoice == "Rock" && computerChoice == "Paper") {
         return console.log("You lost this one");
