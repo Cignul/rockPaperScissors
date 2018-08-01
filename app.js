@@ -1,5 +1,8 @@
+let choices = ["Rock", "Paper", "Scissors"]
+
+
 function play(playerChoice) {
-    let computerChoice = "Rock";
+    let computerChoice = choices[Math.floor(Math.random() * 3)];
     if (playerChoice == "Rock" && computerChoice == "Rock") {
         return console.log("tie!");
     }
@@ -16,7 +19,7 @@ function play(playerChoice) {
         return console.log("Win");
     }
     if (playerChoice == "Paper" && computerChoice == "Scissors") {
-        return console.log("You lost this one");
+        return cosnsole.log("You lost this one");
     }
     if (playerChoice == "Rock" && computerChoice == "Paper") {
         return console.log("You lost this one");
